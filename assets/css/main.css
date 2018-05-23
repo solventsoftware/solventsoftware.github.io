@@ -2328,7 +2328,11 @@
 
 				.panel > .inner.columns > :first-child {
 					margin-left: 0;
-					padding-left: 23%;
+				}
+
+				.contact-button {
+					display: flex;
+					justify-content: center;
 				}
 
 				.panel > .inner.columns.divided > * {
@@ -2907,8 +2911,7 @@
 			}
 
 			.panel .span-3-25 {
-				width: 100%;
-				padding-left: 45%
+				width: 100%;		
 			}
 
 			.panel .span-3-5 {
